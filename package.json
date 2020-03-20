@@ -1,0 +1,43 @@
+{
+  "name": "nocturnecli",
+  "version": "1.0.0",
+  "description": "nocturnecli",
+  "main": "nocturne.js",
+  "scripts": {
+    "test": "istanbul cover _mocha -- -R spec",
+    "watch": "istanbul cover _mocha -- -R spec --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/linekerpablo/nocturnecli.git"
+  },
+  "author": "Lineker Silva",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/linekerpablo/nocturnecli/issues"
+  },
+  "homepage": "https://github.com/linekerpablo/nocturnecli#readme",
+  "preferGlobal": true,
+  "bin": {
+    "nocturnecli": "nocturne.js"
+  },
+  "devDependencies": {
+    "should": "^13.2.3"
+  },
+  "dependencies": {
+    "chalk": "^3.0.0",
+    "commander": "^4.0.1",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.2.4",
+    "inquirer": "^7.0.0",
+    "shelljs": "^0.8.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "keywords": [
+    "cli",
+    "dotnet",
+    "angular"
+  ]
+}
